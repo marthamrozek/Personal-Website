@@ -1,0 +1,167 @@
+<!--______________________________________________________________________________________
+Student Name: Martha Mrozek
+Student I.D.: 40180784
+
+Course Code: SOEN-287 (Section S)
+Course Title: Web Programming
+Semester: Winter 2024
+Due: Friday, February 09 2024
+
+Instructor: Dr. Bonaventure Molokwu
+Assesment Title: Assignment 01
+______________________________________________________________________________________-->
+<!--Resume Page-->
+<!--THIS PAGE IS VALIDATED USING: HTML 4.01 Transitional-->
+<!DOCTYPE html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Martha Mrozek's Personal Website's Resume. 
+        Includes Martha Mrozek's; education,qualifications,skills,recognition,experience,references and CV.">
+    <meta name="author" content="Martha Mrozek">
+    <meta name="keywords" content="CV, curriculum vitae, resume,  Economics Graduate CV, Concordia University Graduate, Martha Mrozek">
+    <title>Resume - Martha Mrozek</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style type="text/css">
+    /*Creating the style formatting for anything that will be left aligned*/
+    .left-align {
+        text-align: left;
+        font-size: 21px;
+        max-width: 40em;
+        color: black;
+        font-family: "Arial", Helvetica, sans-serif;
+    }
+    /*Creating styling for the <dt> tag to create a more easy reading experience*/
+    dt {
+        font-weight: bold;
+    }
+    /*Creating styling for <h3> tag to always be underlined*/
+    h3 {
+        text-decoration: underline;
+        text-align: left;
+        font-size: 35px;
+        max-width: 40em;
+        color: black;
+        font-family: "Arial", Helvetica, sans-serif;
+    }
+    /*Creating the "button" class to link CV*/
+    .button_cv {
+        border: none;
+        color: #ffe9ec;
+        font-family: "Arial Black", Helvetica, sans-serif;
+        padding: 15px 35px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 21px;
+        margin: 5px 3px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+    }
+    /*Creating class "button1" to format the colours of the CV button*/
+    .button_cv1 {
+        background-color: #ffe9ec; 
+        color: black; 
+        font-family: "Arial Black", Helvetica, sans-serif;
+        border: 2px solid #ff8fab;
+    }
+    /*Creating class "button1" to format the colours of the CV button when user hovers over the button*/
+    .button_cv1:hover {
+        background-color: #ff8fab;
+        color: #fff0f3;
+        font-family: "Arial Black", Helvetica, sans-serif;
+    }
+    </style>
+</head>
+<body>
+    <!--Creating the webpage layout following Style-A-->
+    <div class="menu">
+        <a class="active" href="index.html">Home</a>
+        <a href="resume.html">Resume</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+        <a href="social.html">Socials</a>
+        <a href="admin.html">Admin</a>
+    </div>
+    <br><br>
+    <!--Creating a Description List depicting Martha Mrozek's chronological education and respective qualifications-->
+    <h3>Education and Qualifications:</h3>
+    <dl class="left-align">
+            <dt>Dyplom Ukonczenia studiow z Polskiej Szkoly Jana Pawla II</dt>
+                <dd>Pre-School, Elementary School and High School Diploma from a Polish School.</dd>
+            <dt>High School Diploma</dt>
+                <dd>High School Diploma from Saint Thomas High School in Pointe-Claire.</dd>
+            <dt>DEC in Social Sciences</dt>
+                <dd>A Diploma in College Studies from Dawson College in the General Social Sciences.</dd>
+             <dt>Advanced Courses</dt>
+                <dd>Took graduate level courses during undergraduate degree; Econometrics, Advanced Macroeconomics and Microeconomics.</dd>
+            <dt>Programming Courses</dt>
+                <dd>Took programming courses during undergraduate degree; SAS, R, SQL, Java, HTML, CSS, JavaScript and nodeJS as well as Excel profficiency.</dd>
+            <dt>Economics (B.A.)</dt>
+                <dd>Bachelors Degree of Arts in Economics.</dd>
+    </dl><br>
+    <!--Creating a Description List depicting Martha Mrozek's Professional and Technical Skills-->
+    <h3>Professional and Technical Skills:</h3>
+    <dl class="left-align">
+            <dt>Professional Skills:</dt>
+                <dd>Critical Thinking</dd>
+                <dd>Project and Time Management</dd>
+                <dd>Teamwork and Collaboration</dd>
+            <dt>Technical Skills:</dt>
+                <dd>Econometrics and Statistical Modeling</dd>
+                <dd>Data Analysis and Visualization</dd>
+                <dd>Programming Languages</dd>
+    </dl><br>
+    <!--Creating an ordered list for awards and recognition--> 
+    <h3>Awards and Recognition:</h3>
+    <ol class="left-align">
+        <li>Outstanding Community Service Award</li>
+        <li>Student Council Service Award</li>            
+        <li>Top 3 in Sales in all Montreal locations of American Apparel</li>
+    </ol><br>  
+<!--Creating an ordered list of work experience--> 
+<h3>Volunteering and Work Experience:</h3>
+    <ol class="left-align">
+        <li>Volunteered at the SPCA</li>
+        <li>Volunteered at the Old Brewery Mission</li>
+        <li>Volunteered at the Montreal Saint-Patricks Day Parade</li>
+        <li>Student Council head coordinator</li>
+        <li>Polish Scout Camp organizer</li>
+        <li>Waitress at YCC</li>
+        <li>Saleswoman at American Apparel</li> 
+        <li>Saleswoman at COS</li>           
+    </ol>
+<!--Using the fieldset tag to make a list of referees-->
+    <fieldset class="legend fieldset_l">
+        <legend>References</legend>
+        <div class="left-align">
+            <ul>
+                <li>
+                    <b>First reference:</b><br>
+                    For their privacy, please contact me in order to get my references name, number and email. You may do so by clicking on the "Contact" icon on the menu at the top of this page. 
+                </li>
+                <li>
+                    <b>Second reference:</b><br>
+                    For their privacy, please contact me in order to get my references name, number and email. You may do so by clicking on the "Contact" icon on the menu at the top of this page. 
+                </li>
+                <li>
+                    <b>Third reference:</b><br>
+                    For their privacy, please contact me in order to get my references name, number and email. You may do so by clicking on the "Contact" icon on the menu at the top of this page.                </li>
+            </ul>
+        </div>
+</fieldset>
+<br><br> 
+    <!--Creating a conspicuous button labeled: "Download CV" **this renders an error, you cant have button inside <a>
+    <a
+        href="MarthaMrozekCV(English).pdf"
+        title="The curriculum vitae of Martha Mrozek in English, last updated Early 2019.">
+        <button>Download Full CV</button>
+    </a>
+    <br><br>-->
+    <!--Trying to create a aesthetic and more consipucous button that downloads the CV onto the users device while rendering no errors-->
+    <form method="get" action="MarthaMrozekCV(English).pdf">
+        <button type="submit" class="button_cv button_cv1">Download Full CV</button>
+     </form>
+</body>
+</html>

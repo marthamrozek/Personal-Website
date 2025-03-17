@@ -1,0 +1,134 @@
+<!--______________________________________________________________________________________
+Student Name: Martha Mrozek
+Student I.D.: 40180784
+
+Course Code: SOEN-287 (Section S)
+Course Title: Web Programming
+Semester: Winter 2024
+Due: Friday, February 09 2024
+
+Instructor: Dr. Bonaventure Molokwu
+Assesment Title: Assignment 01
+______________________________________________________________________________________-->
+<!--Social Media Page-->
+<!--THIS PAGE IS VALIDATED USING: HTML 4.01 Transitional-->
+<!DOCTYPE html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Martha Mrozek's Social Media Links. 
+        Includes links to popular social media pages.">
+    <meta name="author" content="Martha Mrozek">
+    <meta name="keywords" content="CV, Martha Mrozek, Social Media, facebook, instagram, linkedin, twitter, google plus, dribble, whatsapp, youtube, snapchat">
+    <title>Social Medias - Martha Mrozek</title>
+
+    <style type="text/css">
+        /*Creating a menu class to style the background of my banner menu layout*/
+        .menu {
+            overflow: scroll;
+            font-family: "Arial", Helvetica, sans-serif;
+            font-size: 21px;
+            background-color: #ffe9ec;
+            border: 3px solid #ffdbe0;
+            padding-top: 20px;
+            padding-left: 20px;
+            padding-left: 20px;
+            padding-bottom: 20px;
+        }
+        /*Creating the styling for the hyperlinks on the menu that use the <a> tag*/
+        .menu a {
+            float: left;
+            color: black;
+            text-align: center;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 21px; 
+            line-height: 25px;   
+        }
+        /*Creating the styling for the menu hyperlinks when a mouse is hovering over each of the links*/
+        .menu a:hover {
+            background-color: #ffdbe0;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            color: black;
+        }
+        /*Creating the styling for the <h3> tag*/
+        h3 {
+            text-align: left;
+            font-weight: bold;
+            color:#ff8fab;
+            text-decoration: underline;
+            font-size: 30px;
+            font-family: "Arial", Helvetica, sans-serif;
+            max-width: 45em;
+        }
+        /*Creating the styling for the <h4> tag*/
+            h4 {
+            text-align: left;
+            font-weight: bold;
+            color:#ff8fab;
+            text-decoration: underline;
+            font-size: 20px;
+            font-family: "Arial", Helvetica, sans-serif;
+            max-width: 45em;
+        }
+    </style>
+</head>
+<body>
+    <!--Creating the webpage layout following Style-A-->
+    <div class="menu">
+        <a class="active" href="index.html">Home</a>
+        <a href="resume.html">Resume</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+        <a href="social.html">Socials</a>
+        <a href="admin.html">Admin</a>
+    </div>
+    <!--Creating a webpage header title so that users know what page they are on-->
+    <h3>Social Media Links Page</h3> 
+    <h4>Click any icon to be taken to its page:</h4>
+    <!--Inserting the image file into my website in order to map it to the respective websites later-->
+    <img src="social_media_icons.jpg" alt="Social Media Icons for 9 popular websites. The website logo 
+    displayed from left to right, top to bottom are: Facebook, X foremerly known as Twitter, Google Plus, 
+    Instagram, Dribbble, LinkedIn, WhatsApp, YouTube and Snapchat." width="600" height="600" usemap="#map_socials">
+    <map name="map_socials" id="map_socials">
+    <!--Linking FIRST ROW of social media logos to their respective website urls-->
+        <!--Linking correct logo coordinates to Facebook-->
+        <area shape="rect" coords="0,0,150,150"
+        href="https://www.facebook.com" alt="This is a link to the log in page for Facebook.">
+        <!--Linking correct logo coordinates to  X (Twitter)-->
+        <area shape="rect" coords="220,0,375,150"
+        href="https://www.twitter.com" alt="This is a link to the log in page for X (formerly known as Twitter).">
+        <!--Linking correct logo coordinates to Google since Google+ ceased operating in 2019-->
+        <area shape="rect" coords="450,0,600,150"
+        href="https://www.google.com" alt="This is a link to the google search engine since Google+ is no longer operating.">  
+    <!--Linking SECOND ROW of social media logos to their respective website urls-->         
+        <!--Linking correct logo coordinates to Instagram-->
+        <area shape="rect" coords="0,220,150,375"
+        href="https://www.instagram.com" alt="This is a link to the log in page for Instagram.">
+        <!--Linking correct logo coordinates to  Dribbble-->
+        <area shape="rect" coords="220,220,375,375"
+        href="https://www.dribbble.com" alt="This is a link to the log in page for Dribbble.">
+        <!--Linking correct logo coordinates to LinkedIn-->
+        <area shape="rect" coords="450,220,600,375"
+        href="https://ca.linkedin.com" alt="This is a link to the log in page for LinkedIn.">
+    <!--Linking THIRD ROW of social media logos to their respective website urls-->         
+        <!--Linking correct logo coordinates to WhatsApp-->
+        <area shape="rect" coords="0,450,150,600"
+        href="https://www.whatsapp.com" alt="This is a link to the log in page for WhatsApp.">
+        <!--Linking correct logo coordinates to YouTube-->
+        <area shape="rect" coords="220,450,375,600"
+        href="http://tinyurl.com/ye2x566w" alt="You've just been Rick Rolled! 
+        (This is a link to the Rick Astley music video for Never Gonna Give You Up)">
+        <!--Linking correct logo coordinates to Snapchat-->
+        <area shape="rect" coords="450,450,600,600"
+        href="https://www.snapchat.com" alt="A link to the Snapchat login page.">                       
+    </map>
+</body>
+</html>

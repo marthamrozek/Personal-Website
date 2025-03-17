@@ -1,0 +1,59 @@
+<!--______________________________________________________________________________________
+Student Name: Martha Mrozek
+Student I.D.: 40180784
+
+Course Code: SOEN-287 (Section S)
+Course Title: Web Programming
+Semester: Winter 2024
+Due: Friday, February 09 2024
+
+Instructor: Dr. Bonaventure Molokwu
+Assesment Title: Assignment 01
+______________________________________________________________________________________-->
+<!--Contact Page-->
+<!--THIS PAGE IS VALIDATED USING: HTML 4.01 Transitional-->
+<!DOCTYPE html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Martha Mrozek's Personal Website's Contact Page. 
+        Includes Martha Mrozek's email,phone number and a message box as well as a form to contact Martha Mrozek herself.">
+    <meta name="author" content="Martha Mrozek">
+    <meta name="keywords" content="CV, curriculum vitae, resume,  Economics Graduate CV, Concordia University Graduate, Martha Mrozek, Contact Me">
+    <title>Contact Me - Martha Mrozek</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Creating the webpage layout following Style-A-->
+    <div class="menu">
+        <a class="active" href="index.html">Home</a>
+        <a href="resume.html">Resume</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+        <a href="social.html">Socials</a>
+        <a href="admin.html">Admin</a>
+    </div>
+    <br>
+    <!--Creating a Contact Form for users name,email,phone numbers and general messages using the Form tag-->
+    <h2>Contact Me</h2>
+    <div class="container">
+    <!--Creating a form tag that uses the "mail to" action to submit the user entered contact information, using the "post" method for added security-->
+    <form action="mailto:mrozek.martha@gmail.com" method="post" enctype="text/plain">
+        <!--Creating a label and input tag for "Full Name" in order for a user to be able to enter their name and submit it-->
+        <label for="fname">Please enter your full name: </label>
+        <input type="text" id="fname" name="fullname">
+        <!--Creating a label and input tag for "email" in order for a user to be able to enter their email and submit it-->
+        <label for="email">Please enter your email: </label>
+        <input type="text" id="email" name="email">
+        <!--Creating a label and input tag for a number in order for a user to be able to enter their phone number and submit it-->
+        <label for="phone">Please enter your phone number: </label>
+        <input type="text" id="phone" name="phone">
+        <!--Creating a label and input tag for a message in order for a user to be able to enter a message they wish to write and submit it-->
+        <label for="message">Please type your message here if you would like to send me one: </label>
+        <textarea id="message" name="message" rows="15" cols="55"></textarea>
+        <!--Creating an input tag for a submit button in order for a user to be able to submit all of the previous information in the contact form-->
+        <input type="submit" value="Submit">
+    </form>
+    </div>
+</body>
+</html>

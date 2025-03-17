@@ -1,0 +1,216 @@
+/*______________________________________________________________________________________________
+Student I.D.: 40180784
+
+Course Code: SOEN-287 (Section S)
+Course Title: Web Programming
+Semester: Winter 2024
+Due: Friday, February 09 2024
+
+Instructor: Dr. Bonaventure Molokwu
+Assesment Title: Assignment 01
+________________________________________________________________________________________________*/
+/*THIS PAGE IS VALIDATED USING: HTML 4.01 Transitional*/
+/* CSS Style code for Martha Mrozek's personal webpage */
+/*THIS PAGE IS VALIDATED USING: CSS and CSS Level 3*/
+/*______________________________________________________________________________________________*/
+
+/*___________________________________CSS CODE FOR: index.html___________________________________*/
+/*Creating a menu class to style the background of my banner menu layout*/
+.menu {
+    overflow: scroll;
+    font-family: "Arial", Helvetica, sans-serif;
+    font-size: 21px;
+    background-color: #ffe9ec;
+    border: 3px solid #ffdbe0;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+/*Creating the styling for the hyperlinks on the menu that use the <a> tag*/
+.menu a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 21px; 
+    line-height: 25px;   
+}
+/*Creating the styling for the menu hyperlinks when a mouse is hovering over each of the links*/
+.menu a:hover {
+    background-color: #ffdbe0;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+}
+/*Creating a class to style the statement portion of my page and ensuring it is centered*/
+.statement {
+    text-align: center;
+    font-family: "Arial", Helvetica, sans-serif;
+    font-size: 21px;
+    max-width: 45em;   
+}
+/*Styling the fieldset tag to ensure it is centered and add personal aesthetic touches*/
+.fieldset_c {
+    margin:auto;
+    background-color: #ffe9ec;
+    max-width: 60em;
+    text-align: center; 
+}
+/*Creating the legend class to style the legend of the fieldset tag*/
+.legend > legend:first-of-type{
+    text-align: center;
+    color: #ff8fab;
+    font-family: "Arial", Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    max-width: 50em;            
+}
+/*Creating the bio class to style the text written for the biography and ensure it is centered*/
+.bio {
+    text-align: justify;
+    font-family: "Arial", Helvetica, sans-serif;
+    font-size: 21px;
+    max-width: 45em;
+}
+/*Creating the styling for the <img> tag and ensuring it is centered for the webpage*/
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    width: 3000px;
+    font-family: "Arial", Helvetica, sans-serif;
+ }
+ /*__________________________________CSS CODE FOR: resume.html__________________________________*/
+
+/*Creating the styling for the <h3> tag*/
+ h3 {
+    text-align: left;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 30px;
+    font-family: "Arial", Helvetica, sans-serif;
+    max-width: 45em;
+}
+/*Styling the fieldset tag to ensure it is to the left and add personal aesthetic touches*/
+.fieldset_l {
+    margin:auto;
+    background-color: #ffe9ec;
+    max-width: 60em;
+    text-align: left; 
+}
+    /*Creating the style formatting for anything that will be left aligned*/
+    .left-align {
+        text-align: left;
+        font-size: 21px;
+        max-width: 40em;
+        color: black;
+        font-family: "Arial", Helvetica, sans-serif;
+    }
+    /*Creating styling for the <dt> tag to create a more easy reading experience*/
+    dt {
+        font-weight: bold;
+    }
+    /*Creating styling for <h3> tag to always be underlined
+    h3 {
+        text-decoration: underline;
+    }*/
+    /*Creating the "button" class to link CV*/
+    .button_cv {
+        border: none;
+        color: #ffe9ec;
+        font-family: "Arial Black", Helvetica, sans-serif;
+        padding: 15px 35px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 21px;
+        margin: 5px 3px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+    }
+    /*Creating class "button1" to format the colours of the CV button*/
+    .button_cv1 {
+        background-color: #ffe9ec; 
+        color: black; 
+        font-family: "Arial Black", Helvetica, sans-serif;
+        border: 2px solid #ff8fab;
+    }
+    /*Creating class "button1" to format the colours of the CV button when user hovers over the button*/
+    .button_cv1:hover {
+        background-color: #ff8fab;
+        color: #fff0f3;
+        font-family: "Arial Black", Helvetica, sans-serif;
+    }
+    /*Creating a class called "justified-aligned" to simplify styling text to be justified aligned*/
+    .justified-aligned {
+        text-align: justify;
+    }
+    /*Creating styling for the <ol> tag*/
+    .projects {
+        text-align: justify;
+        font-size: 21px;
+        color: black;
+        font-family: "Arial", Helvetica, sans-serif;
+    }
+
+ /*__________________________________CSS CODE FOR: contact.html__________________________________*/
+    /*Creating styling for the <body> tag to chnage the font-family to remain consisent accross my webpages*/
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        box-sizing: border-box;
+    }
+    /*Creating styling for the <input> tag of type=text so that the style is consistent to my webpages and for the 
+    name, email, phone-number and message box fields to be left aligned*/
+    input[type=text], select, textarea {
+        text-align: left;
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ffdbe0;
+        border-radius: 5px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+    }
+    /*Creating styling for the <input> tag of type=password so that the style is consistent to my webpages*/
+    input[type=password] {
+        text-align: left;
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ffdbe0;
+        border-radius: 5px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+    }
+    /*Creating styling for the <input> tag of type=submit so that the style is consistent to my webpages*/
+    input[type=submit] {
+        background-color: #c40e75;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    /*Creating styling for when a cursor is hovering over the submit button on the contact form*/
+    input[type=submit]:hover {
+        background-color: #950f5b;
+     }
+    /*Creating a class called "container" for styling my contact form background*/
+    .container {
+        border-radius: 5px;
+        background-color: #ffe9ec;
+        padding: 20px;
+    }
